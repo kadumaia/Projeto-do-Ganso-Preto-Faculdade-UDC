@@ -1,0 +1,174 @@
+html {
+    font-size: 120%;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: white;
+    line-height: 1.2rem;
+}
+
+.container {
+    max-width: 740px;
+    margin: 0 auto;
+}
+
+main {
+    float: left;
+    width: 100%;
+}
+
+main h1 {
+    font-size: 300%;
+    background-color: brown;
+    color: white;
+    text-align: center;
+    padding: 1.25rem;
+    margin: 0;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-bottom: 0.5rem solid black;
+}
+
+h2 {
+    font-size: 40px;
+    clear: both;
+}
+
+p {
+    text-align: justify;
+    margin: 20px 0px;
+}
+
+img {
+    width: 200px;
+    margin: 20px 30px 0px 0px;
+}
+
+blockquote {
+    background-color: lightgray;
+    padding: 0.5rem 15px;
+    border: 1rem solid gray;
+    width: 250px;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: darkmagenta;
+    color: white;
+    float: right;
+}
+
+nav h1 {
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    padding: 20px 20px;
+}
+
+nav a {
+    color: white;
+    font-weight: 700;
+}
+
+nav ul {
+    padding: 20px 20px;
+    text-align: center;
+}
+
+nav ul li {
+    padding: 5px 5px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 20px 20px;
+    text-align: center;
+    clear: both;
+}
+
+aside {
+    background-color: darkmagenta;
+    color: white;
+    text-align: center;
+    float: right;
+    width: 25%;
+    border-bottom: 10px solid black;
+    position: fixed;
+    right: 90px;
+}
+
+aside img {
+    float: right;
+}
+
+.trabalho {
+    display: grid;
+    width: 64%;
+}
+
+.experiencia {
+    float: right;
+    width: 64%;
+    clear: right;
+}
+
+.direita {
+    float: right;
+}
+
+.esquerda {
+    float: left;
+}
+
+.icones-sociais li {
+    margin: 10px 10px;
+    font-size: 18px;
+    display: inline-block;
+}
+
+.icones-sociais a {
+    background-size: 24px;
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    text-indent: -99999px;
+}
+
+.facebook {
+    background-image: url("../img/facebook-3-xxl.png");
+}
+
+.whatsapp {
+    background-image: url("../img/icons8-whatsapp-240.png");
+}
+
+.discord {
+    background-image: url("../img/icons8-discord-250.png");
+}
+
+.github {
+    background-image: url("../img/icons8-github-250.png");
+}
+
+.instagram {
+    background-image: url("../img/instagram-3-xxl.png");
+}
+
+.linkedin {
+    background-image: url("../img/linkedin-6-xxl.png");
+}
+
+.skype {
+    background-image: url("../img/skype-6-xxl.png");
+}
+
+.telegram {
+    background-image: url("../img/telegram-3-xxl.png");
+}
+
+.escondido {
+  display: none;
+}

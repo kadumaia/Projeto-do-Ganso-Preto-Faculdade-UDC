@@ -1,0 +1,70 @@
+html {
+  scroll-behavior: smooth;
+}
+
+h2 {
+      background-color: #5599DD;
+      background: -webkit-linear-gradient(top, blue, black 90%) ;
+      color: white;
+      padding: 5px 0px 10px 10px ;
+      border-radius: 8px;
+      border: 1px solid black;
+    }
+
+    
+    .exp {
+      text-indent: 50px;
+    }
+
+    #email {
+      text-decoration: underline;
+      font-style: italic;
+    }
+
+nav ul li {
+  float: left;
+  display: inline-flex;
+  margin: 0px 50px 0px 0px;
+  background-color: lightskyblue;
+  padding: 10px;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: 0.4s; /* Adds a transition effect when the padding is decreased */
+  top: 0; /* At the top */
+  z-index: 99;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+body {
+  background-color: lightcyan;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 940px;
+  margin: 0 auto;
+}
+
+#cabecalho {
+  text-align: center;
+}
+
+img {
+  margin: 0 auto;
+  width: 200px;
+  padding: 10px;
+  background-color: white;
+  text-align: center;
+  border: 1px solid darkgray;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7);
+  transform: rotate(-5deg);
+}
+
+h1{
+  text-align: center;
+  padding: 10px 0px 20px 0px;
+}
+
+h5 {
+  text-transform: uppercase;
+}

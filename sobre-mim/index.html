@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" type="image/x-icon" href="img/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&display=swap" rel="stylesheet">
+
+  <script>
+
+    function copiaDiscord() {
+      /* Seleciona o campo inputDiscord */
+      var copyText = document.getElementById("inputDiscord");
+
+      /* Seleciona o texto do inputDiscord */
+      copyText.select();
+      copyText.setSelectionRange(0, 99999); /* Para celulares */
+
+      /* Copia o valor do texto dentro do field */
+      navigator.clipboard.writeText(copyText.value);
+
+      /* Alerta do conteudo copiado */
+      alert("Usuário Discord copiado: " + copyText.value);
+    }
+
+    function copiaSkype() {
+      /* Seleciona o campo inputDiscord */
+      var copyText = document.getElementById("inputSkype");
+
+      /* Seleciona o texto do inputDiscord */
+      copyText.select();
+      copyText.setSelectionRange(0, 99999); /* Para celulares */
+
+      /* Copia o valor do texto dentro do field */
+      navigator.clipboard.writeText(copyText.value);
+
+      /* Alerta do conteudo copiado */
+      alert("Usuário Skype copiado: " + copyText.value);
+    }
+    /* ------------------------------------------------------------------ */
+    function toggleDiv() {
+      var displayStatus = document.getElementById("imgTelegram");
+      if (displayStatus.style.display == 'none') {
+        //If the div is hidden, show it
+        displayStatus.style.display = 'block';
+      } else {
+        //If the div is shown, hide it
+        displayStatus.style.display = 'none';
+      }
+    };
+  </script>
+
+</head>
+
+<body>
+
+  <main>
+    <h1>Sobre mim</h1>
+    <div class="container">
+
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex quas, temporibus omnis delectus, at et maxime
+        expedita voluptatum nemo maiores quis nisi nostrum ipsa voluptatem harum excepturi corrupti tempora
+        atque.
+      </p>
+
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex quas, temporibus omnis delectus, at et maxime
+        expedita voluptatum nemo maiores quis nisi nostrum ipsa voluptatem harum excepturi corrupti tempora
+        atque.
+      </p>
+
+      <blockquote cite="#" class="direita">
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero veniam veritatis facilis
+          consequatur
+          enim
+          adipisci
+          eveniet eum doloremque, voluptate qui ad molestias officiis recusandae ratione, consectetur labore
+          placeat,
+          blanditiis nesciunt?
+        </p>
+        <cite>-- José da Silva</cite>
+      </blockquote>
+      <div class="trabalho">
+        <h2>Como trabalho</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium, doloribus iure? Minus laborum
+          excepturi
+          eaque
+          repudiandae a debitis neque atque aut asperiores totam adipisci error ipsam, ipsa esse hic ratione!
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium, doloribus iure? Minus laborum
+          excepturi
+          eaque
+          repudiandae a debitis neque atque aut asperiores totam adipisci error ipsam, ipsa esse hic ratione!
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium, doloribus iure? Minus laborum
+          excepturi
+          eaque
+          repudiandae a debitis neque atque aut asperiores totam adipisci error ipsam, ipsa esse hic ratione!
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium, doloribus iure? Minus laborum
+          excepturi
+          eaque
+          repudiandae a debitis neque atque aut asperiores totam adipisci error ipsam, ipsa esse hic ratione!
+        </p>
+      </div>
+      <div class="experiencia">
+        <h2>Experiência</h2>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam magni incidunt quia, maxime
+          doloremque
+          tempora
+          atque quidem eveniet<strong><a href="#" target="_blank"> laborum in, exercitationem</a></strong>.
+          Dolorem,
+          eveniet minus quia quos architecto temporibus
+          atque.
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium, doloribus iure? Minus laborum
+          excepturi
+          eaque
+          repudiandae a debitis neque atque aut asperiores totam adipisci error ipsam, ipsa esse hic ratione!
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium, doloribus iure? Minus laborum
+          excepturi
+          eaque
+          repudiandae a debitis neque atque aut asperiores totam adipisci error ipsam, ipsa esse hic ratione!
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium, doloribus iure? Minus laborum
+          excepturi
+          eaque
+          repudiandae a debitis neque atque aut asperiores totam adipisci error ipsam, ipsa esse hic ratione!
+        </p>
+      </div>
+
+      <blockquote cite="#" class="esquerda">
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero veniam veritatis facilis
+          consequatur
+          enim
+          adipisci
+          eveniet eum doloremque, voluptate qui ad molestias officiis recusandae ratione, consectetur labore
+          placeat,
+          blanditiis nesciunt?
+        </p>
+        <cite>-- José da Silva</cite>
+      </blockquote>
+
+      <h2>Comunidade</h2>
+      <span>Ainda nao sei o que colocar aqui. O meu <a href="https://projeto-do-ganso-preto.kadumaia.repl.co/"><strong>
+            blog é
+            esse</strong></a> Divirtam-se...</span>
+      <br>
+      <br>
+      <h2>Comunidade</h2>
+      <span>Ainda nao sei o que colocar aqui. O meu <a href="https://projeto-do-ganso-preto.kadumaia.repl.co/"><strong>
+            blog é
+            esse</strong></a> Divirtam-se...</span>
+      <br>
+      <br>
+      <h2>Comunidade</h2>
+      <span>Ainda nao sei o que colocar aqui. O meu <a href="https://projeto-do-ganso-preto.kadumaia.repl.co/"><strong>
+            blog é
+            esse</strong></a> Divirtam-se...</span>
+      <br>
+      <br>
+    </div>
+  </main>
+
+  <aside>
+    <img src="img/kadu.jpg" alt="Carlos Maia">
+    <div id="imgTelegram" style="display:none">
+      <img src="img/telekadu.png">
+    </div>
+    <nav>
+      <h1>Carlos Maia</h1>
+      <ul>
+        <li><a href="https://projeto-do-ganso-preto.kadumaia.repl.co/">Início</a></li>
+        <li><a href="#">Porfolio</a></li>
+        <li><a href="https://projeto-do-ganso-preto.kadumaia.repl.co/sobre-mim">Sobre mim</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Contato</a></li>
+      </ul>
+    </nav>
+
+    <ul class="icones-sociais">
+      <li><a href="https://www.facebook.com/kadu.maia" class="facebook" target="_blank">Facebook</a></li>
+      <li><a
+          href="https://wa.me/5545999617627?text=Ol%C3%A1+venho+do+contato+do+seu+projeto+Ganso+Afro+e+tenho+uma+duvida%3A+"
+          target="_blank" class="whatsapp">WhatsApp</a></li>
+      <li><a href="#" class="discord" target="_self" id="discord" onclick="copiaDiscord()">Discord</a></li>
+      <li><a href="https://github.com/kadumaia" class="github" target="_blank">Github</a></li>
+      <li><a href="https://www.instagram.com/kadummaia/" class="instagram" target="_blank">Instagram</a></li>
+      <li><a href="https://www.linkedin.com/in/kadu-maia/" class="linkedin" target="_blank">Linkedin</a></li>
+      <li><a href="#" class="skype" id="skype" onclick="copiaSkype()">Skype</a></li>
+      <li><a href="#" class="telegram" onclick="toggleDiv()">Telegram</a></li>
+    </ul>
+    <input type="text" value="kaa.du#2344" id="inputDiscord" style="display: none;">
+    <input type="text" value="kaa.du" id="inputSkype" style="display: none;">
+  </aside>
+
+
+  <footer>
+    &copy; Carlos Maia
+  </footer>
+
+</body>
+
+</html>
