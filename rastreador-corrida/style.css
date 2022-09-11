@@ -1,0 +1,133 @@
+html {
+    font-family: 'Exo', sans-serif;
+    font-family: 'Kanit', sans-serif;
+    font-size: 20px;
+    background: #2d3740;
+}
+
+body {
+    padding: 1rem;
+    background: #1c252f;
+    color: rgb(230, 225, 225);
+    width: 90%;
+    margin: 0 auto;
+}
+
+.logo {
+    text-align: center;
+}
+
+form {
+    text-align: center;
+
+}
+
+label {
+    font-size: 1.8rem;
+}
+
+input[type="number"] {
+    font-family: inherit;
+    background-color: rgb(230, 225, 225);
+    width: 80%;
+    margin: 1rem 0;
+    padding: 0.8rem 0;
+    border: none;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+button {
+    font-family: inherit;
+    font-size: 1.4rem;
+    font-weight: bolder;
+    width: 150px;
+    height: 150px;
+    border: none;
+    border-radius: 50%;
+    background-color: #0ad9ff;
+    margin: 0.5rem 1rem 0;
+}
+
+ul {
+    padding: 0;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+
+li {
+    border: 1px solid;
+    padding: 1rem 1.5rem;
+}
+
+.wrapperEntradas {
+    padding: 1rem 0;
+    font-size: 1.6rem;
+}
+
+.wrapperEntradas h3 {
+    margin: 0;
+    text-align: center;
+    font-weight: lighter;
+}
+
+.informacoes {
+    font-size: 1.4rem;
+}
+
+.informacoes div {
+    background: #141c22;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0.5rem 0;
+    padding: 0 1rem;
+}
+
+.progresso {
+    text-align: center;
+    padding-bottom: 1rem;
+
+}
+
+.progresso h3 {
+    font-size: 1.6rem;
+    font-weight: lighter;
+}
+
+.wrapperCirculoEntradas {
+    display: flex;
+    justify-content: center;
+}
+
+#progressoCirculo {
+   width: 250px; 
+   height: 250px;
+   border-radius: 50%;
+   /* background: conic-gradient(#70db70 50%, #2d3740 50%); */
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+#centroProgesso{
+    width: 220px; 
+    height: 220px;
+    border-radius: 50%;
+    background: #1c262f;
+}
+
+@media screen and (min-width: 800px) {
+    body {
+        width: 60%;
+    }
+
+    input[type="number"] {
+        width: 40%;
+    }
+    
+    svg {
+        max-width: 50%;
+    }
+}
