@@ -6,3 +6,16 @@
     new bootstrap.Tooltip(tooltipTriggerEl)
   })
 })()
+
+function pesquisar(textoInput) {
+  if (window.find(textoInput)) {
+      console.log(window.find(textoInput));
+  }
+}
+
+var contateme = document.getElementById('contate-me')
+var contateme = document.getElementById('contate-me')
+
+contateme.addEventListener('shown.bs.modal', function () {
+  myInput.focus()
+})
